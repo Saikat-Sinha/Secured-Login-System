@@ -1,0 +1,52 @@
+.input{
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border:1px solid #DADADA;
+  padding-left:35px;
+  width:30%;
+  height:30px;
+  font-size:14px;
+  box-shadow:0 0 10px;
+  -webkit-box-shadow:0 0 10px;
+  /* For I.E */
+  -moz-box-shadow:0 0 10px;
+  /* For Mozilla Web Browser */
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  /* For I.E */
+  -moz-border-radius:5px;
+  /* For Mozilla Web Browser */
+  display: block;
+
+}
+
+label{
+font-size:15px;
+font-weight:700
+}
+
+#submit-btn{
+  background-color:#cc7a66;
+  border-radius:5px;
+  border:none;
+  padding:10px 25px;
+  color:#FFF;
+  text-shadow:1px 1px 1px #949494;
+  }
+#submit-btn:hover{
+  background-color:#FF9980
+  }
+
+.top-link{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 30px;
+}
+
+.fp{
+  font-size: 20px;
+}
+
+a:link{
+  text-decoration: none;
+}

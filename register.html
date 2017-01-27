@@ -3,8 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Secured System</title>
+    <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel= "stylesheet" href="./css/main.css">
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
   </head>
   <body>
-    
+    <div class="text-center">
+      <a href="register.html"><span class="top-link">Register</span></a>
+      <span class="top-link">&nbsp; / &nbsp; </span>
+      <a href="login.html"><span class="top-link"> Login</span></a>
+      <span class="top-link">&nbsp; / &nbsp; </span>
+      <a href="forget.html"><span class="fp top-link"> Forget Password</span></a>
+    </div >
+    <div class="form jumbotron text-center">
+    <form id="myform">
+      <label>First Name: </label><input class="input center-block" type="text" name="fname"></input><br/>
+      <label>Last Name: </label><input class="input center-block" type="text" name="lname"></input><br/>
+      <label>E-mail: </label><input class="input center-block" type="email" name="email"></input><br/>
+      <label>Phone: </label><input class="input center-block" type="number" name="number"></input><br/>
+      <label>Password: </label><input class="input center-block" type="password" name="pass"></input></br>
+      <label>Confirm Password: </label><input class="input center-block" type="password" name="con-pass"></input></br>
+      <input id="submit-btn" type="submit" name="submit"></input>
+    </form>
+  </div>
   </body>
 </html>
