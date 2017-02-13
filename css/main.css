@@ -1,23 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(45deg, #33235C, #170F2F);
+  height: 100%;
+  width: 100%;
+}
+
+#myform{
+  padding-top: 20px;
+}
+
+.lock-icon{
+  color: #fff;
+}
+.logo{
+  border: 2px solid #fff;
+  padding: 5px;
+}
+.anchor-links{
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+}
+
+
+.navbar{
+  margin-top: 10px;
+  font-weight: 800;
+  font-family: monospace;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar li a span{
+  font-size: 23px;
+  color: #FF4E47;
+}
+
 .input{
   margin-top: 1px;
-  margin-bottom: 1px;
+  margin-bottom: 40px;
   border:1px solid #DADADA;
   padding-left:35px;
-  width:30%;
-  height:30px;
+  width:20%;
+  height:40px;
   font-size:14px;
-  box-shadow:0 0 10px;
-  -webkit-box-shadow:0 0 10px;
-  /* For I.E */
-  -moz-box-shadow:0 0 10px;
   /* For Mozilla Web Browser */
-  border-radius:5px;
-  -webkit-border-radius:5px;
+  border-radius:50px;
+  -webkit-border-radius:50px;
   /* For I.E */
-  -moz-border-radius:5px;
+  -moz-border-radius:50px;
   /* For Mozilla Web Browser */
   display: block;
 
+}
+.input:focus{
+  width:40%;
 }
 
 label{
@@ -26,7 +66,7 @@ font-weight:700
 }
 
 #submit-btn{
-  background-color:#cc7a66;
+  background-color:#FF4E47;
   border-radius:5px;
   border:none;
   padding:10px 25px;
@@ -34,7 +74,7 @@ font-weight:700
   text-shadow:1px 1px 1px #949494;
   }
 #submit-btn:hover{
-  background-color:#FF9980
+  background-color:#bf1a13;
   }
 
 .top-link{

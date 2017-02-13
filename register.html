@@ -2,31 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Secured System</title>
     <link rel= "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel= "stylesheet" href="./css/main.css">
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/main.js"></script>
   </head>
   <body>
-    <div class="text-center">
-      <a href="register.html"><span class="top-link">Register</span></a>
-      <span class="top-link">&nbsp; / &nbsp; </span>
-      <a href="login.html"><span class="top-link"> Login</span></a>
-      <span class="top-link">&nbsp; / &nbsp; </span>
-      <a href="forget.html"><span class="fp top-link"> Forget Password</span></a>
-    </div >
-    <div class="form jumbotron text-center">
+    <header class="body-header">
+      <nav class="navbar">
+        <li>
+          <span class="lock-icon"><i class="fa fa-2x fa-lock" aria-hidden="true"></i></span>
+          <a href="#" class="logo">
+            <span>Secured System</span>
+          </a>
+        </li>
+        <li>
+          <a href="register.html" class="anchor-links">
+            <span>Register</span>
+          </a>
+        </li>
+        <li>
+          <a href="login.html" class="anchor-links">
+            <span>Login</span>
+          </a>
+        </li>
+        <li>
+          <a href="forget.html" class="anchor-links">
+            <span>Forget Password</span>
+          </a>
+        </li>
+
+      </nav>
+    </header>
+    <div class="form text-center">
     <form id="myform">
-      <label>First Name: </label><input class="input center-block" type="text" name="fname"></input><br/>
-      <label>Last Name: </label><input class="input center-block" type="text" name="lname"></input><br/>
-      <label>E-mail: </label><input class="input center-block" type="email" name="email"></input><br/>
-      <label>Phone: </label><input class="input center-block" type="number" name="number"></input><br/>
-      <label>Password: </label><input class="input center-block" type="password" name="pass"></input></br>
-      <label>Confirm Password: </label><input class="input center-block" type="password" name="con-pass"></input></br>
-      <input id="submit-btn" type="submit" name="submit"></input>
+      <input class="input center-block" type="text" name="fname" placeholder="First Name">
+      <input class="input center-block" type="text" name="lname" placeholder="Last Name">
+      <input class="input center-block" type="email" name="email" placeholder="E-mail">
+      <input class="input center-block" type="number" name="number" placeholder="Phone">
+      <input class="input center-block" type="password" name="pass" placeholder="Password">
+      <input class="input center-block" type="password" name="con-pass" placeholder="Confirm Password">
+      <input id="submit-btn" type="submit" name="submit">
     </form>
   </div>
+  <footer></footer>
   </body>
 </html>
